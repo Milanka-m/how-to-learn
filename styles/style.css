@@ -295,6 +295,10 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 }
 
 .footer__links {
+  font-size: 18px;
+  line-height: 30px;
+  text-decoration: none;
+  color: white;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
