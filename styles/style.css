@@ -309,13 +309,6 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   margin: 20px 0 16px;
 }
 
-.footer__links {
-  font-size: 18px;
-  line-height: 30px;
-  text-decoration: none;
-  color: white;
-}
-
 .footer__links__illustration {
   width: 16px;
   height: 16px;
