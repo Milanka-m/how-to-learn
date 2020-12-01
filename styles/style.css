@@ -1,9 +1,3 @@
-body, h1, h2, h3, h4, h5, h6, p, a {
-  margin: 0; /*обнулит настройки по умолчанию*/
-  font-size: 100%;
-  font-weight: normal;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -13,6 +7,8 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   margin: 0 auto;
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-size: 100%;
+  font-weight: normal;
 }
 
 .header {
@@ -48,23 +44,30 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
-  margin-left: 64px;
+  padding-left: 64px;
   z-index: 3;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .header__subtitle {
   width: 388px;
   line-height: 25px;
   font-size: 18px;
+  font-weight: normal;
   position: absolute;
   left: 64px;
   bottom: 30px;
   z-index: 2;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .header__link {
   text-decoration: none;
   color: #2f80ed;
+}
+
+.header__link:hover {
+  color: #e6d430;
 }
 
 .header__main-illustration {
@@ -101,7 +104,9 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   width: 175px;
   color: #2f80ed;
   font-size: 18px;
+  font-weight: normal;
   line-height: 1.2;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .two-columns__main-text {
@@ -112,7 +117,9 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 .two-columns__main-text__paragraph {
   font-size: 24px;
+  font-weight: normal;
   line-height: 34px;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .two-columns__main-text__paragraph:nth-of-type(2n) {
@@ -141,6 +148,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   margin: 0 auto;
   text-align: center;
   font-size: 24px;
+  font-weight: normal;
   line-height: 34px;
 }
 
@@ -170,12 +178,15 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   font-size: 24px;
   font-weight: bold;
   line-height: 1.15;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .table__cell__text {
   font-size: 18px;
+  font-weight: normal;
   line-height: 1.2;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .table__cell__text:last-child {
@@ -202,11 +213,13 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 .feynman__title {
   width: 648px;
-  margin-top: 100px;
+  padding-top: 100px;
   text-align: center;
   font-size: 120px;
+  font-weight: normal;
   font-weight: bold;
   line-height: 1.15;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .feynman__illustration {
@@ -220,9 +233,11 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 .feynman__subtitle {
   font-size: 36px;
+  font-weight: normal;
   line-height: 51px;
-  margin-top: 70px;
+  padding-top: 70px;
   text-align: center;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .feynman__link {
@@ -230,9 +245,15 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   right: 48px;
   top: 50%;
   font-size: 36px;
+  font-weight: normal;
   line-height: 51px;
   text-decoration: none;
   color: #2f80ed;
+  margin: 0; /*обнулит настройки по умолчанию*/
+}
+
+.feynman__link:hover {
+  color: #e6d430;
 }
 
 .kaufman {
@@ -240,7 +261,7 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   padding: 90px 0;
   overflow: hidden;
   position: relative;
-  z-index: 0;
+  z-index: 1;
 }
 
 .kaufman__illustration {
@@ -284,18 +305,22 @@ body, h1, h2, h3, h4, h5, h6, p, a {
 
 .footer__author {
   font-size: 18px;
+  font-weight: normal;
   line-height: 25px;
   padding: 18px 0;
+  margin: 0; /*обнулит настройки по умолчанию*/
 }
 
 .footer__column-heading {
   font-size: 18px;
+  font-weight: normal;
   line-height: 30px;
   font-weight: bold;
 }
 
 .footer__links {
   font-size: 18px;
+  font-weight: normal;
   line-height: 30px;
   text-decoration: none;
   color: white;
@@ -303,6 +328,10 @@ body, h1, h2, h3, h4, h5, h6, p, a {
   flex-direction: column;
   justify-content: space-between;
   flex-wrap: wrap;
+}
+
+.footer__links:hover {
+  color: #e6d430;
 }
 
 .footer__column-links {
