@@ -315,6 +315,12 @@
   margin: 0; /*обнулит настройки по умолчанию*/
 }
 
+.footer__column-links {
+  padding: 20px 0 16px;
+  list-style: none;
+  margin: 0;
+}
+
 .footer__links {
   font-size: 18px;
   font-weight: normal;
@@ -328,33 +334,8 @@
   color: #e6d430;
 }
 
-.footer__column-links {
-  padding: 20px 0 16px;
-  list-style: none;
-  margin: 0;
-}
-
-.footer__links__illustration {
+.social-icon {
   width: 16px;
   height: 16px;
   padding-right: 10px;
-}
-
-.footer__column-link {
-  padding: 20px 0 16px;
-  list-style: none;
-  margin: 0;
-}
-
-.footer__icons {
-  font-size: 18px;
-  font-weight: normal;
-  line-height: 30px;
-  text-decoration: none;
-  color: white;
-  margin: 0;
-}
-
-.footer__icons:hover {
-  color: #e6d430;
 }
