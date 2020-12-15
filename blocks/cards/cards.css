@@ -1,0 +1,8 @@
+.cards {
+  max-width: 920px;
+  list-style: none;
+  padding-left: 0; /*убирает отступ слева, который делает маркер списка*/
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+}
